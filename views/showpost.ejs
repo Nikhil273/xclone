@@ -1,0 +1,8 @@
+<!-- views/books.ejs -->
+<h1>Post List</h1>
+<ul>
+  <% posts.forEach(post => { %>
+  <li><%= post.title %> by <%= post.content %></li>
+  <% }) %>
+</ul>
+<button><a href="http://localhost:3000/newPost">Add Book</a></button>
