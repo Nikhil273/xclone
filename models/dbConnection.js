@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectionString = 'mongodb+srv://Nikhil:mypass@cluster0.v3q8r.mongodb.net/xclone';
+const connectionString = 'mongodb+srv://Nikhil:<yourpass>@cluster0.v3q8r.mongodb.net/xclone';
 
 const connectDB = async () => {
   try {
